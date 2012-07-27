@@ -6,7 +6,7 @@ class Matplotlib < Formula
 
   depends_on 'python'
   depends_on 'numpy' => :python
-  depends_on 'libpng12'
+  #depends_on 'homebrew/versions/libpng12'
   
 
   def install
